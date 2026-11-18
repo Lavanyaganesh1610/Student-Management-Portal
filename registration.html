@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Registration | Student Management Portal</title><link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><div class="nav-wrap"><a class="brand" href="index.html">Student Portal</a><nav aria-label="Main navigation"><a href="index.html">Home</a><a href="about.html">About</a><a href="registration.html">Registration</a><a href="courses.html">Courses</a><a href="contact.html">Contact</a></nav></div></header>
+<main>
+  <span class="tag">Join our portal</span><h1>Student Registration</h1>
+  <p>Complete this sample form. Fields marked required must be filled in.</p>
+  <form action="#" method="get">
+    <div class="form-grid">
+      <div><label for="fullname">Full Name *</label><input id="fullname" name="fullname" type="text" autocomplete="name" required></div>
+      <div><label for="email">Email Address *</label><input id="email" name="email" type="email" autocomplete="email" required></div>
+      <div><label for="phone">Phone Number</label><input id="phone" name="phone" type="tel" autocomplete="tel"></div>
+      <div><label for="dob">Date of Birth</label><input id="dob" name="dob" type="date"></div>
+      <div><label for="gender">Gender</label><select id="gender" name="gender"><option value="">Select an option</option><option>Female</option><option>Male</option><option>Prefer not to say</option></select></div>
+      <div><label for="course">Choose Course *</label><select id="course" name="course" required><option value="">Select a course</option><option>Foundation of Full Stack</option><option>Programming Fundamentals</option><option>Database Fundamentals</option><option>Web Design Basics</option></select></div>
+      <div class="full"><label for="address">Address</label><textarea id="address" name="address"></textarea></div>
+      <div class="full"><button type="submit">Submit Form</button></div>
+    </div>
+    <p class="note">Demo only: this static form does not send or save your details.</p>
+  </form>
+</main>
+<footer><p>&copy; 2026 Student Management Portal | 26CS102 Assignment</p></footer>
+</body>
+</html>
