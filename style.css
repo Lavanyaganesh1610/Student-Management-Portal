@@ -112,3 +112,29 @@ footer { text-align: center; padding: 20px; color: #555; }
 }
 .button:hover { background: #2748b5; }
 .card h3 { margin-top: 0; color: #1e3a8a; }
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 16px;
+}
+.form-grid .full { grid-column: 1 / -1; }
+textarea { min-height: 100px; }
+.button {
+  display: inline-block;
+  margin-top: 16px;
+  padding: 10px 22px;
+  background: #1e3a8a;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+}
+.button:hover { background: #2748b5; }
+.card h3 { margin-top: 0; color: #1e3a8a; }
+.card a { color: #1e3a8a; font-weight: bold; }
+.hero {
+  background: #fff;
+  padding: 40px 28px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  margin-bottom: 24px;
+}
